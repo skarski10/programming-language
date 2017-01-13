@@ -1,26 +1,49 @@
 .form-control {
-  width: 75%;
+  width: 50%;
 }
 
 .hide-me {
   display: none;
 }
 
-/*img {
-  float: right;
-}*/
-
 .jumbotron {
   background-color: #337DFF;
   font-family: Verdana Arial sans-serif;
+  text-align: center;
 }
 
 .jumbotron p{
   color: #FCFF5D;
   font-family: serif;
-  text-align: center;
 }
 
 .jumbotron h1 {
-  text-align: right;
+  color: white;
+}
+
+p {
+  font-family: arial sans-serif;
+}
+
+.hide-me h2 {
+  text-align: center;
+}
+
+.hide-me img {
+  float: right;
+}
+
+body {
+  background-image: url(../img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.labelCss {
+  color: white;
+}
+
+form {
+  padding-bottom: 20px;
+  padding-left: 25px;
 }
