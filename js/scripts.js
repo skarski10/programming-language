@@ -3,6 +3,10 @@
 
 // User interface (or front-end) logic:
 $(document).ready(function() {
+  $("form").click(function(){
+    $("#changeClass").removeClass(".has-error").addClass(".has-success");
+    console.log("hi")
+  });
   $("#formSubmit").click(function(event) {
     event.preventDefault();
     $(".hide-me").hide();
