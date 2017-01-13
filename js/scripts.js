@@ -33,8 +33,4 @@ $(document).ready(function() {
     }
 
   });
-
-  $("#buttonRow").click(function(){
-    $(this).trigger("https://www.epicodus.com/ruby")
-  })
 });

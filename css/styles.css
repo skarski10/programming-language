@@ -44,8 +44,8 @@ form {
 }
 
 #userForm {
-  background-image: url(../img/background.jpeg);
-  background-size: cover;
+  background-image: url(../img/background2.jpg);
+  background-size: auto;
   border: double 6px black;
 }
 
