@@ -8,7 +8,7 @@
 }
 
 .jumbotron {
-  background-color: #337DFF;
+  background-color: #71BEFF;
   font-family: Verdana Arial sans-serif;
   text-align: center;
 }
@@ -47,6 +47,7 @@ form {
   background-image: url(../img/background2.jpg);
   background-size: auto;
   border: double 6px black;
+  text-shadow: 2px 2px black;
 }
 
 #userResults {
