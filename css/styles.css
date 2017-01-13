@@ -26,13 +26,15 @@ p {
   font-family: arial sans-serif;
 }
 
-.hide-me h2 {
+/*.hide-me h2 {
   text-align: center;
-}
+}*/
 
 .row img {
-  float: right;
-  overflow: auto;
+  /*float: right;*/
+  /*display: block;
+  margin: auto;
+  width: 10%*/
 }
 
 .labelCss {
