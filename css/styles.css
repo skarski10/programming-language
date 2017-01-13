@@ -64,4 +64,9 @@ form {
 
 #userResults h2 {
   text-shadow: 2px 2px black;
+  font-size: 50px;
+}
+
+.promptHeader {
+  padding-left: 15px;
 }
