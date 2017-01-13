@@ -46,7 +46,7 @@ form {
 #userForm {
   background-image: url(../img/background.jpeg);
   background-size: cover;
-  border: double 4px black;
+  border: double 6px black;
 }
 
 #userResults {
@@ -71,4 +71,12 @@ form {
   padding-left: 15px;
   color: white;
   font-family: Impact sans-serif;
+}
+
+#buttonRow {
+  padding: 10px;
+}
+
+a {
+  color: white;
 }
