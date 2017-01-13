@@ -3,7 +3,8 @@
 }
 
 .hide-me {
-  display: none;
+  /*display: none;*/
+  background-color: #FF8469;
 }
 
 .jumbotron {
@@ -29,14 +30,9 @@ p {
   text-align: center;
 }
 
-.hide-me img {
+.row img {
   float: right;
-}
-
-body {
-  background-image: url(../img/background.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  overflow: auto;
 }
 
 .labelCss {
@@ -46,4 +42,23 @@ body {
 form {
   padding-bottom: 20px;
   padding-left: 25px;
+}
+
+#userForm {
+  background-image: url(../img/background.jpeg);
+  background-size: cover;
+  border: double 4px black;
+}
+
+#userResults {
+  margin-top: 50px;
+  border: solid 1px black;
+}
+
+#userResults p {
+  padding: 15px;
+}
+
+#userResults h3 {
+  padding: 15px;
 }
