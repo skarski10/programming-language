@@ -3,11 +3,11 @@
 
 // User interface (or front-end) logic:
 $(document).ready(function() {
-  $("#changeClass").click(function(event) {
-    event.preventDefault();
-    $("form").toggleClass(".has-error").addClass("has-success");
-    console.log("hi")
-  });
+  // $("#changeClass").click(function(event) {
+  //   event.preventDefault();
+  //   $("form").toggleClass(".has-error").addClass("has-success");
+  //   console.log("hi")
+  // });
   $("#formSubmit").click(function(event) {
     event.preventDefault();
     $(".hide-me").hide();
@@ -18,16 +18,15 @@ $(document).ready(function() {
     var userChoice5 = parseInt($("#question5").val());
     var userTotal = userChoice1 + userChoice2 + userChoice3 + userChoice4 + userChoice5;
 
-    console.log(userTotal)
-    if (userTotal >= 500) {
+    if (userTotal >= 100) {
       $("#cssUnhide").show();
-    } else if (userTotal >= 1 && userTotal <= 15) {
+    } else if (userTotal >= 1 && userTotal <= 9) {
       $("#cUnhide").show();
-    } else if (userTotal >= 16 && userTotal <= 25) {
+    } else if (userTotal >= 10 && userTotal <= 14) {
       $("#javaUnhide").show();
-    } else if (userTotal >= 26 && userTotal <= 35) {
+    } else if (userTotal >= 15 && userTotal <= 19) {
       $("#phpUnhide").show();
-    } else if (userTotal >= 36 && userTotal <= 499) {
+    } else if (userTotal >= 20 && userTotal <= 99) {
       $("#rubyUnhide").show();
     } else {
       alert("Please select an answer for each question");

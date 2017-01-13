@@ -17,30 +17,10 @@
     </div>
     <div class="row" id="userForm">
       <h3 id="promptHeader">Answer the follow questions to find out what programming language you should learn first:</h3>
-      <form class="has-error has-success form-horizontal " id="changeClass">
+      <form class="form-horizontal " id="changeClass">
         <div class="form-group">
-
-          <label class="labelCss">Would kind of programming would you like to do?</label>
-          <select class="form-control" id="question1">
-            <option value=""></option>
-            <option value="500">I want to control the way things look on a webpage.</option>
-            <option value="3">I would like to improve productivity in the development of Web applications.</option>
-            <option value="6">I want to develop Android user interfaces</option>
-            <option value="9">I would like to work with content heavy webpages</option>
-            <option value="12">I want to create interactive web applications</option>
-          </select>
-
-          <label class="labelCss">What type of business would you like to work for?</label>
-          <select class="form-control" id="question2">
-            <option value=""></option>
-            <option value="2">Large corporation</option>
-            <option value="4">Medium sized business</option>
-            <option value="6">Small business or startup</option>
-            <option value="0">Doesn't matter</option>
-          </select>
-
           <label class="labelCss">Have you ever studied a programming language before? If so, which one?</label>
-          <select class="form-control" id="question3">
+          <select class="form-control" id="question1">
             <option value=""></option>
             <option value="1">CSS/Design</option>
             <option value="2">C#</option>
@@ -50,22 +30,43 @@
             <option value="0">Never</option>
           </select>
 
+          <label class="labelCss">Would kind of programming would you like to do?</label>
+          <select class="form-control" id="question2">
+            <option value=""></option>
+            <option value="100">I want to control the way things look on a webpage.</option>
+            <option value="3">I would like to improve productivity in the development of Web applications.</option>
+            <option value="6">I want to develop Android user interfaces</option>
+            <option value="9">I would like to work with content heavy webpages</option>
+            <option value="12">I want to create interactive web applications</option>
+          </select>
+
+          <label class="labelCss">What type of business would you like to work for?</label>
+          <select class="form-control" id="question3">
+            <option value=""></option>
+            <option value="2">Large corporation</option>
+            <option value="4">Medium sized business</option>
+            <option value="6">Small business or startup</option>
+            <option value="0">Doesn't matter</option>
+          </select>
+
+
           <label class="labelCss">Which of the follow optons sounds appealing to you?</label>
           <select class="form-control" id="question4">
             <option value=""></option>
-            <option value="500">make shit look good</option>
             <option value="3">create client applications, database applications, distributed components</option>
             <option value="6">create dynamic web applications</option>
             <option value="9">send and receive cookies</option>
             <option value="12">building web applications</option>
           </select>
 
-          <label class="labelCss"></label>
+          <label class="labelCss">Which language do you have the most interest in?</label>
           <select class="form-control" id="question5">
             <option value=""></option>
-            <option value="2"></option>
-            <option value="4"></option>
-            <option value="6"></option>
+            <option value="1">CSS/Design</option>
+            <option value="2">C#</option>
+            <option value="3">Java</option>
+            <option value="4">Ruby</option>
+            <option value="0">I don't know that's why I took this survey</option>
           </select>
         </div>
         <button type="sumbit" class="btn btn-success" name="" id="formSubmit">Submit</button>
