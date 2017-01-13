@@ -16,16 +16,16 @@ $(document).ready(function() {
     console.log(userTotal)
     if (userTotal >= 500) {
       $("#cssUnhide").show();
-    } else if (userTotal >=  && <=) {
+    } else if (userTotal >= 1 && userTotal <= 15) {
       $("#cUnhide").show();
-    } else if (userTotal >= ) {
+    } else if (userTotal >= 16 && userTotal <= 25) {
       $("#javaUnhide").show();
-    } else if (userTotal >= ) {
+    } else if (userTotal >= 26 && userTotal <= 35) {
       $("#phpUnhide").show();
-    } else if (userTotal >= ) {
+    } else if (userTotal >= 36 && userTotal <= 499) {
       $("#rubyUnhide").show();
     } else {
-
+      alert("Please select an answer for each question");
     }
 
   });
