@@ -67,6 +67,8 @@ form {
   font-size: 50px;
 }
 
-.promptHeader {
+#promptHeader {
   padding-left: 15px;
+  color: white;
+  font-family: Impact sans-serif;
 }
