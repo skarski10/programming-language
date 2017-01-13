@@ -31,10 +31,7 @@ p {
 }*/
 
 .row img {
-  /*float: right;*/
-  /*display: block;
-  margin: auto;
-  width: 10%*/
+  margin-top: 10px;
 }
 
 .labelCss {
@@ -63,4 +60,8 @@ form {
 
 #userResults h3 {
   padding: 15px;
+}
+
+#userResults h2 {
+  text-shadow: 2px 2px black;
 }
